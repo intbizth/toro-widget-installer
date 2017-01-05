@@ -1,0 +1,14 @@
+{
+    "name": "toro/widget-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {"Toro\\Composer": ""}
+    },
+    "extra": {
+        "class": "Toro\\Composer\\WidgetInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    }
+}
