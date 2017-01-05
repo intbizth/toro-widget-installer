@@ -3,7 +3,7 @@
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
-        "psr-0": {"Toro\\Composer": "src/"}
+        "psr-4": {"Toro\\Composer": "src/"}
     },
     "extra": {
         "class": "Toro\\Composer\\WidgetInstallerPlugin"
