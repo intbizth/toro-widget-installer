@@ -12,7 +12,7 @@ class WidgetInstaller extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        return 'app/widgets/' . $package->getPrettyName();
+        return 'app/widgets/remote/' . $package->getPrettyName();
     }
 
     /**
